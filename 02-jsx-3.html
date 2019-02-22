@@ -24,7 +24,7 @@
             children: 'Hello World',
         }
         const element = (
-            <div {...props} />    // self closing react element
+            <div {...props} />    // self closing react element. Same as: <div className={props.className} children={props.children} />
         ); 
         ReactDOM.render(element, rootElement);
     </script>
